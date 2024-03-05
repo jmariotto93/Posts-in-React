@@ -1,0 +1,11 @@
+.input-search {
+    width: 50%;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.search-icon {
+    margin-left: 10px;
+}

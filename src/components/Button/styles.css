@@ -1,0 +1,23 @@
+.button {
+    width: 100%;
+    background: darkblue;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button:hover {
+
+    background: rgb(35, 35, 255);
+    border-radius: 6px;
+}
+
+.button:disabled {
+    background: #c0c0c0;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: not-allowed;
+}
