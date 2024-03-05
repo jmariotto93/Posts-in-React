@@ -3,6 +3,7 @@ import { Component } from 'react'
 import { Posts } from '../../components/Posts';
 import { Button } from '../../components/Button';
 import { Input } from '../../components/Input';
+import { Footer } from '../../components/Footer';
 
 class Home extends Component {
   state = {
@@ -96,8 +97,10 @@ class Home extends Component {
             )}
             
           </div>
-          
+
+          <Footer text={"©José Mariotto 2024"}/>
       </section>
+      
     );
     }
 }
