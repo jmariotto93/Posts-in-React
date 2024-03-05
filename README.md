@@ -3,8 +3,7 @@
 Este projeto React foi desenvolvido para demonstrar a integração de duas APIs diferentes em uma aplicação web. Ele utiliza o framework React.js para construir a interface do usuário e faz requisições a duas APIs distintas para obter e exibir dados.
 Funcionalidades
 
-    Integração de APIs: O projeto integra duas APIs diferentes para obter e exibir informações.
-    Interface Amigável: A interface do usuário é intuitiva e responsiva, proporcionando uma boa experiência de usuário.
+    Integração de APIs: O projeto integra duas APIs diferentes para obter posts, fotos e exibir informações.
     Componentização: Utiliza componentes React para uma estrutura de código organizada e reutilizável.
 
 ##Tecnologias Utilizadas
