@@ -1,6 +1,6 @@
 const { render, screen, fireEvent } = require("@testing-library/react")
 import userEvent from '@testing-library/user-event';
-import { Button } from '.';
+import { Button } from './index';
 
 describe('<Button />', () => {
   it('should render the button with the text "Load More"', () => {
@@ -31,5 +31,11 @@ describe('<Button />', () => {
     render(<Button text="Load More" disabled={false}/>);
     const button = screen.getByRole('button', {name: /load more/i});
     expect(button).toBeEnabled();
+  });
+
+  it('should match snapshot', () => {
+    const {container} = render(<Button text="Load More" disabled={false}/>);
+   
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
